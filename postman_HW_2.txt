@@ -191,5 +191,9 @@ pm.environment.set("salary", resp_salary);
 for (let i = 0; i < resp_salary.length; i++){
     console.log(resp_salary[i])
 
-}
+};
+
+for (item in resp_salary){
+    console.log(resp_salary[item])
+};
 
